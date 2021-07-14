@@ -5,7 +5,7 @@
     font-family: 'Bebas Neue', cursive;
 }
 
-.font2, .card-t, .card-p, .item-price, .details-title{
+.font2, .card-t, .card-p, .item-price, .details-title, footer{
     font-family: 'Roboto', sans-serif;
 }  
 
@@ -100,16 +100,52 @@
         text-align: center;
         padding: 10px 0 !important;
     }
-    
+
+    .connectd{
+        text-align: center;    
+    }
+    .bigf_col{
+        text-align: center;
+    }
 
 }
 .details{
     padding: 30px 0 30px 30px;
+
 }
 
 .details-title{
     font-size: 24px;
     font-weight: 700;
 }
+
+.details > p{
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 400;
+    color: #3E3E3E;
+}
+
+.email{
+    width: 300px;
+    border-radius: 5px;
+    border: 1px solid #3E3E3E;
+    
+}
+
+.submit-btn{
+    background-color: #A4BC46;
+    color: white;
+    border-radius: 10px;
+    padding: 5px 30px;
+}
+
+.big_footer{
+    clip-path: polygon(33% 11%, 100% 0, 100% 60%, 100% 100%, 0 100%, 0 100%, 0 0);
+    width: 100%;
+    background-color: #A4BC46;
+}
+
+
 
 
