@@ -24,12 +24,35 @@
     line-height: 50%;
 }
 
+.nav-link{
+    transition: color, transform, font-weight .1s ease-in;
+}
+.nav-link:hover{
+    color: #85A019 !important;
+    transform: scale(1.01);
+    font-weight: bold;
+}
+
 .button{
     background-image: linear-gradient(180deg, #A4BC46 0%, #85A019 100%);
     border-radius: 10px;
     border: 0;
     padding: 18px 36px;
     color: white;
+}
+
+.sec-card img{
+    transition: transform .5s ease-out;
+}
+
+.button:hover{
+  background-image: linear-gradient(45deg, #A4BC46 0%, #85A019 100%);
+  transform: scale(1.01);
+}
+
+.sec-card img:hover{
+    transform: scale(1.1);
+    transition:  ;
 }
 
 .section-title{
@@ -75,40 +98,19 @@
     border-radius: 20px;
     margin-top: 20px;
     overflow: hidden;
+    transition: transform .1s ease-out;
+}
+
+.about-details:hover{
+    transform-origin: left;
+    transform: scale(1.05);
 }
 
 .about-us{
     margin-top: 150px;
 }
 
-@media only screen and (max-width: 600px){
-    .section-title{
-        text-align: center;
-    }
 
-    .about-us{
-        margin-top: 100px;
-    }
-    .about-details{
-        display: flex;
-        flex-direction: column;
-        height: auto;
-        
-    }
-
-    .details{
-        text-align: center;
-        padding: 10px 0 !important;
-    }
-
-    .connectd{
-        text-align: center;    
-    }
-    .bigf_col{
-        text-align: center;
-    }
-
-}
 .details{
     padding: 30px 0 30px 30px;
 
@@ -144,6 +146,35 @@
     clip-path: polygon(33% 11%, 100% 0, 100% 60%, 100% 100%, 0 100%, 0 100%, 0 0);
     width: 100%;
     background-color: #A4BC46;
+}
+
+@media only screen and (max-width: 600px){
+    .section-title{
+        text-align: center;
+    }
+
+    .about-us{
+        margin-top: 100px;
+    }
+    .about-details{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        
+    }
+
+    .details{
+        text-align: center;
+        padding: 10px 0 !important;
+    }
+
+    .connectd{
+        text-align: center;    
+    }
+    .bigf_col{
+        text-align: center;
+    }
+
 }
 
 
